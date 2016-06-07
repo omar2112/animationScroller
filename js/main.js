@@ -2,6 +2,10 @@
 
 // After page load
 $(function() {
+    squareDiv = document.getElementById("squareDiv");
+    console.log(squareDiv);
+    squareDiv.style.top = 0 + "px";
+    squareDiv.style.left = 0 + "px";
   // Data to visualize (shoe sizes along the horizontal)
   var data = [
     {text:'Paragraph 1'},

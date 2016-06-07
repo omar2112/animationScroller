@@ -1,0 +1,11 @@
+$(document).ready(function() {
+    squareDiv = document.getElementsByClassName("squareDiv");
+    console.log(squareDiv);
+    squareDiv[0].style.top = 0 + "px";
+    squareDiv[0].style.left = 200 + "px";
+    squareDiv[1].style.left = 100 + "px";
+    squareDiv[2].style.left = 200 + "px";
+    squareDiv[3].style.left = 300 + "px";
+
+
+})
