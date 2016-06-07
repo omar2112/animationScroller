@@ -8,7 +8,7 @@ var myApp = angular.module('myApp', [])
        {id:0, text:'Scroll for a locking animation. Square: Data. Circles: Processes.'},
        {id:1, text:'Problems arise when two parallel processes attempt to alter the same data. The output can be different than expected when parallel processes happen at the same time.'},
        {id:2, text:'One solution to this problem is locking, which prevents additional processes from accesing data until the first process has finished.'},
-       {id:3, text:'Paragraph 3'}
+       //{id:3, text:'Paragraph 3'}
      ];
 
      // Array of objects that correspond to each step
@@ -33,7 +33,7 @@ var myApp = angular.module('myApp', [])
 	// {text:squareDiv},
 	 {text:'Animation #1 goes here'},
        {text:'Animation #2 goes here'},
-       {text:'Section 3'}
+       //{text:'Section 3'}
      ];
     /*
     squareDiv = document.getElementById("squareDiv");

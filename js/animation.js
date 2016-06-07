@@ -4,12 +4,12 @@ $(document).ready(function() {
     task2Div = document.getElementsByClassName("task2Div");
 
     // step0
-    squareDiv[0].style.top = -30 + "px";
+    squareDiv[0].style.top = 50 + "px";
     squareDiv[0].style.left = 200 + "px";
     task1Div[0].style.left = 80 + "px";
-    task1Div[0].style.top = -90 + "px";
+    task1Div[0].style.top = -10 + "px";
     task2Div[0].style.left = 370 + "px";
-    task2Div[0].style.top = -140 + "px";
+    task2Div[0].style.top = -59 + "px";
 
     // step1
     squareDiv[1].style.top = -150 + "px";
