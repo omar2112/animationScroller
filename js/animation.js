@@ -4,28 +4,28 @@ $(document).ready(function() {
     task2Div = document.getElementsByClassName("task2Div");
 
     // step0
-    squareDiv[0].style.top = 50 + "px";
+    squareDiv[0].style.top = -30 + "px";
     squareDiv[0].style.left = 200 + "px";
     task1Div[0].style.left = 80 + "px";
-    task1Div[0].style.top = 0 + "px";
+    task1Div[0].style.top = -90 + "px";
     task2Div[0].style.left = 370 + "px";
-    task2Div[0].style.top = -50 + "px";
+    task2Div[0].style.top = -140 + "px";
 
     // step1
-    squareDiv[1].style.top = 50 + "px";
+    squareDiv[1].style.top = -150 + "px";
     squareDiv[1].style.left = 200 + "px";
     task1Div[1].style.left = 80 + "px";
-    task1Div[1].style.top = 0 + "px";
+    task1Div[1].style.top = -215 + "px";
     task2Div[1].style.left = 370 + "px";
-    task2Div[1].style.top = -50 + "px";
+    task2Div[1].style.top = -265 + "px";
 
     // step2
-    squareDiv[2].style.top = 50 + "px";
+    squareDiv[2].style.top = -250 + "px";
     squareDiv[2].style.left = 200 + "px";
     task1Div[2].style.left = 80 + "px";
-    task1Div[2].style.top = 0 + "px";
+    task1Div[2].style.top = -310 + "px";
     task2Div[2].style.left = 370 + "px";
-    task2Div[2].style.top = -50 + "px";
+    task2Div[2].style.top = -360 + "px";
 
     // step2
     /*
