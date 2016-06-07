@@ -55,6 +55,9 @@ $(document).ready(function() {
     function lockAnim2() {
 	if (parseInt(task1Div[2].style.left) < 160) {
             task1Div[2].style.left = parseInt(task1Div[2].style.left) + 1 + 'px';
+
+	} 
+	if (parseInt(task2Div[2].style.left) > 272) {
 	    task2Div[2].style.left = parseInt(task2Div[2].style.left) - 1 + 'px';
 	    setTimeout(lockAnim2, 20);
 	} else {
@@ -71,9 +74,9 @@ $(document).ready(function() {
 	    setTimeout(lockAnim3, 20);
 	} else {
 	    clearTimeout(lockAnim3);
-	    setTimeout(hideTask2, 1000);
-	    setTimeout(resetLastAnim, 1500);
-	    setTimeout(lockAnim2, 1600);
+	    setTimeout(hideTask2, 1300);
+	    setTimeout(resetLastAnim, 1800);
+	    setTimeout(lockAnim2, 1900);
 	}
     }
 
